@@ -1,0 +1,1 @@
+#Laicos beta contract
