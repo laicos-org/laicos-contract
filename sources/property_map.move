@@ -10,11 +10,6 @@ module aptos_token::property_map {
     use aptos_std::from_bcs;
     use aptos_std::simple_map::{Self, SimpleMap};
     use aptos_std::type_info::type_name;
-
-    //
-    // Constants
-    //
-    /// The maximal number of property that can be stored in property map
     const MAX_PROPERTY_MAP_SIZE: u64 = 1000;
     const MAX_PROPERTY_NAME_LENGTH: u64 = 128;
 
